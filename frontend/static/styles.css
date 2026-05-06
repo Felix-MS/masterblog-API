@@ -26,6 +26,7 @@ body {
 }
 
 .input-field input,
+.input-field select,
 .input-field button {
     height: 40px;
     padding: 10px;
@@ -36,7 +37,8 @@ body {
     transition: box-shadow 0.5s ease;
 }
 
-.input-field input {
+.input-field input,
+.input-field select {
     flex-grow: 1;
     margin-right: 10px;
 }
@@ -72,6 +74,12 @@ body {
 .post p {
     margin: 10px 0 0;
     color: #333;
+}
+
+.post .meta {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: 10px;
 }
 
 .post button {
